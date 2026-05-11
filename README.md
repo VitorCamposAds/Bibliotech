@@ -74,7 +74,11 @@ O [Rundeck](https://docs.rundeck.com/) é utilizado para orquestrar e agendar os
 - **Backend**: PostgreSQL no Render (migrado do H2 padrão)
 
 <img width="886" height="535" alt="image" src="https://github.com/user-attachments/assets/cdb71a23-0851-4fd5-bed8-2c7684668cc7" />
-<img width="885" height="210" alt="image" src="https://github.com/user-attachments/assets/75046e7a-47e1-4372-a41b-4e3f4928582d" />
+<img width="886" height="531" alt="image" src="https://github.com/user-attachments/assets/637af144-97b3-430a-888a-535aef86ee2a" />
+<img width="886" height="764" alt="image" src="https://github.com/user-attachments/assets/c712b4e7-749f-4f88-a62b-91f8fee52fce" />
+<img width="886" height="764" alt="image" src="https://github.com/user-attachments/assets/1d59637d-9e55-4470-a10e-db38fbc0ed09" />
+
+
 
 
 ---

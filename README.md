@@ -102,19 +102,17 @@ A aplicação foi implantada em uma instância **EC2 Windows (m5.xlarge — 4 vC
 ---
 
 ## 📁 Estrutura do Projeto
-bibliotech-data-platform/
-│
-├── ingestion.py # Script de extração e carga na Staging
-├── export.py # Script de coleta e exportação de logs do Rundeck
-├── requirements.txt # Dependências Python
-├── requirements_virtualenv.txt
-│
-├── sql/
-│ ├── create_staging.sql # Criação dos schemas e tabelas staging
-│ ├── create_datamart.sql # Modelagem dimensional (D_ e F_)
-│ └── queries_negocio.sql # Consultas analíticas respondendo perguntas de negócio
-│
-└── README.md
+
+- `bibliotech-data-platform/`
+  - `ingestion.py` — Script de extração e carga na Staging
+  - `export.py` — Script de coleta e exportação de logs do Rundeck
+  - `requirements.txt` — Dependências Python
+  - `requirements_virtualenv.txt`
+  - `sql/`
+    - `create_staging.sql` — Criação dos schemas e tabelas staging
+    - `create_datamart.sql` — Modelagem dimensional (D_ e F_)
+    - `queries_negocio.sql` — Consultas analíticas respondendo perguntas de negócio
+  - `README.md`
 
 ---
 

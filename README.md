@@ -235,5 +235,5 @@ java -jar rundeck-5.8.0-20241205.war
 ---
 
 <p align="center">
-  Feito com ❤️ e dados por <a href="https://www.linkedin.com/in/vitor-campos-tech"><strong>Vitor Campos</strong></a>
+  Feito por <a href="https://www.linkedin.com/in/vitor-campos-tech"><strong>Vitor Campos</strong></a>
 </p>

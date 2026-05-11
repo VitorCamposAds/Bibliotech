@@ -112,7 +112,6 @@ A aplicação foi implantada em uma instância **EC2 Windows (m5.xlarge — 4 vC
     - `create_staging.sql` — Criação dos schemas e tabelas staging
     - `create_datamart.sql` — Modelagem dimensional (D_ e F_)
     - `queries_negocio.sql` — Consultas analíticas respondendo perguntas de negócio
-  - `README.md`
 
 ---
 

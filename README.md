@@ -77,11 +77,9 @@ O [Rundeck](https://docs.rundeck.com/) é utilizado para orquestrar e agendar os
 - **Backend**: PostgreSQL no Render (migrado do H2 padrão)
 
 <img width="886" height="535" alt="image" src="https://github.com/user-attachments/assets/cdb71a23-0851-4fd5-bed8-2c7684668cc7" />
-<img width="886" height="764" alt="image" src="https://github.com/user-attachments/assets/c712b4e7-749f-4f88-a62b-91f8fee52fce" />
-<img width="886" height="764" alt="image" src="https://github.com/user-attachments/assets/1d59637d-9e55-4470-a10e-db38fbc0ed09" />
-
-
-
+<img width="885" height="375" alt="image" src="https://github.com/user-attachments/assets/0d575d2f-a188-4a2f-bcf3-01107c3ad379" />
+<img width="885" height="375" alt="image" src="https://github.com/user-attachments/assets/365c03f7-8fa4-4c79-a9fc-112fdeb605c2" />
+<img width="886" height="522" alt="image" src="https://github.com/user-attachments/assets/6f8734f6-43ea-4cbd-869d-43bf25bbe853" />
 
 ---
 
@@ -103,6 +101,12 @@ A aplicação foi implantada em uma instância **EC2 Windows (m5.xlarge — 4 vC
 
 - Portas **3000** (Metabase) e **4440** (Rundeck) liberadas nos **Security Groups da AWS**
 - Firewall do Windows desativado para acesso externo via IP público
+
+<img width="885" height="452" alt="image" src="https://github.com/user-attachments/assets/d07ed28f-b2ce-46ec-8c7c-9eb295638e72" />
+
+<img width="885" height="184" alt="image" src="https://github.com/user-attachments/assets/5873d655-2935-4ed7-95da-aceb0ef9c229" />
+
+<img width="883" height="860" alt="image" src="https://github.com/user-attachments/assets/dc11a8e0-0ee6-47cd-b12c-d0904dd766ba" />
 
 ---
 

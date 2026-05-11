@@ -79,7 +79,6 @@ O [Rundeck](https://docs.rundeck.com/) é utilizado para orquestrar e agendar os
 <img width="886" height="535" alt="image" src="https://github.com/user-attachments/assets/cdb71a23-0851-4fd5-bed8-2c7684668cc7" />
 <img width="885" height="375" alt="image" src="https://github.com/user-attachments/assets/0d575d2f-a188-4a2f-bcf3-01107c3ad379" />
 <img width="885" height="375" alt="image" src="https://github.com/user-attachments/assets/365c03f7-8fa4-4c79-a9fc-112fdeb605c2" />
-<img width="886" height="522" alt="image" src="https://github.com/user-attachments/assets/6f8734f6-43ea-4cbd-869d-43bf25bbe853" />
 
 ---
 
@@ -107,6 +106,8 @@ A aplicação foi implantada em uma instância **EC2 Windows (m5.xlarge — 4 vC
 <img width="885" height="184" alt="image" src="https://github.com/user-attachments/assets/5873d655-2935-4ed7-95da-aceb0ef9c229" />
 
 <img width="883" height="860" alt="image" src="https://github.com/user-attachments/assets/dc11a8e0-0ee6-47cd-b12c-d0904dd766ba" />
+
+<img width="886" height="522" alt="image" src="https://github.com/user-attachments/assets/6f8734f6-43ea-4cbd-869d-43bf25bbe853" />
 
 ---
 

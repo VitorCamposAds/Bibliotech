@@ -8,10 +8,6 @@ A **Bibliotech** é um marketplace que conecta empresas de e-commerce e varejo c
 - **Risco de derrubar o banco de produção**
 
 A solução foi construir uma **infraestrutura/plataforma de dados dedicada**, capaz de suportar a tomada de decisão sem impactar o ambiente operacional. O principal processo de negócio acompanhado são as **vendas de livros por publicador**.
-
-<img width="886" height="413" alt="image" src="https://github.com/user-attachments/assets/f38dea1a-ee61-4cb6-a7c0-583d5035f59d" />
-
-
 ---
 
 ## 🏗️ Arquitetura da Solução
@@ -103,11 +99,9 @@ A aplicação foi implantada em uma instância **EC2 Windows (m5.xlarge — 4 vC
 
 <img width="885" height="452" alt="image" src="https://github.com/user-attachments/assets/d07ed28f-b2ce-46ec-8c7c-9eb295638e72" />
 
-<img width="885" height="184" alt="image" src="https://github.com/user-attachments/assets/5873d655-2935-4ed7-95da-aceb0ef9c229" />
-
-<img width="883" height="860" alt="image" src="https://github.com/user-attachments/assets/dc11a8e0-0ee6-47cd-b12c-d0904dd766ba" />
-
 <img width="886" height="522" alt="image" src="https://github.com/user-attachments/assets/6f8734f6-43ea-4cbd-869d-43bf25bbe853" />
+
+<img width="886" height="413" alt="image" src="https://github.com/user-attachments/assets/f38dea1a-ee61-4cb6-a7c0-583d5035f59d" />
 
 ---
 

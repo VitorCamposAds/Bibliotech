@@ -9,6 +9,9 @@ A **Bibliotech** é um marketplace que conecta empresas de e-commerce e varejo c
 
 A solução foi construir uma **infraestrutura/plataforma de dados dedicada**, capaz de suportar a tomada de decisão sem impactar o ambiente operacional. O principal processo de negócio acompanhado são as **vendas de livros por publicador**.
 
+<img width="886" height="535" alt="image" src="https://github.com/user-attachments/assets/cdb71a23-0851-4fd5-bed8-2c7684668cc7" />
+
+
 ---
 
 ## 🏗️ Arquitetura da Solução

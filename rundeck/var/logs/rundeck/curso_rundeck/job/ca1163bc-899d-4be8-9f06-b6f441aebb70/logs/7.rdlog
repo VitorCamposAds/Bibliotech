@@ -1,0 +1,21 @@
+^text/x-rundeck-log-v2.0^
+^2026-05-05T16:14:53Z||VERBOSE|{node=localhost|user=vitor}|[workflow] Begin execution: node-first^
+^2026-05-05T16:14:53Z||ERROR|{node=localhost|user=vitor}|com.dtolabs.rundeck.core.NodesetEmptyException: No matched nodes: NodeSet{includes={name=localhost, dominant=false, }}^
+^2026-05-05T16:14:53Z||ERROR|{node=localhost|user=vitor}|	at com.dtolabs.rundeck.core.execution.workflow.BaseWorkflowExecutor.validateNodeSet(BaseWorkflowExecutor.java:880)^
+^2026-05-05T16:14:53Z||ERROR|{node=localhost|user=vitor}|	at com.dtolabs.rundeck.core.execution.workflow.NodeFirstWorkflowExecutor.executeWorkflowImpl(NodeFirstWorkflowExecutor.java:92)^
+^2026-05-05T16:14:53Z||ERROR|{node=localhost|user=vitor}|	at com.dtolabs.rundeck.core.execution.workflow.BaseWorkflowExecutor.executeWorkflow(BaseWorkflowExecutor.java:220)^
+^2026-05-05T16:14:53Z||ERROR|{node=localhost|user=vitor}|	at com.dtolabs.rundeck.core.execution.WorkflowExecutionServiceThread.runWorkflow(WorkflowExecutionServiceThread.java:95)^
+^2026-05-05T16:14:53Z||ERROR|{node=localhost|user=vitor}|	at com.dtolabs.rundeck.core.logging.LoggingManagerImpl$MyPluginLoggingManager.runWith(LoggingManagerImpl.java:146)^
+^2026-05-05T16:14:53Z||ERROR|{node=localhost|user=vitor}|	at com.dtolabs.rundeck.core.execution.WorkflowExecutionServiceThread.run(WorkflowExecutionServiceThread.java:77)^
+^2026-05-05T16:14:53Z||ERROR|{node=localhost|user=vitor}|Exception: class com.dtolabs.rundeck.core.NodesetEmptyException: No matched nodes: NodeSet{includes={name=localhost, dominant=false, }}^
+^2026-05-05T16:14:53Z||VERBOSE|{node=localhost|user=vitor}|[workflow] Finish execution:  node-first: [Workflow result: , exception: com.dtolabs.rundeck.core.NodesetEmptyException: No matched nodes: NodeSet{includes={name=localhost, dominant=false, }}, flow control: Continue, status: failed]^
+^2026-05-05T16:14:53Z||ERROR|{node=localhost|user=vitor}|No matched nodes: NodeSet{includes={name=localhost, dominant=false, }}^
+^2026-05-05T16:14:53Z||VERBOSE|{node=localhost|user=vitor}|com.dtolabs.rundeck.core.NodesetEmptyException: No matched nodes: NodeSet{includes={name=localhost, dominant=false, }}
+	at com.dtolabs.rundeck.core.execution.workflow.BaseWorkflowExecutor.validateNodeSet(BaseWorkflowExecutor.java:880)
+	at com.dtolabs.rundeck.core.execution.workflow.NodeFirstWorkflowExecutor.executeWorkflowImpl(NodeFirstWorkflowExecutor.java:92)
+	at com.dtolabs.rundeck.core.execution.workflow.BaseWorkflowExecutor.executeWorkflow(BaseWorkflowExecutor.java:220)
+	at com.dtolabs.rundeck.core.execution.WorkflowExecutionServiceThread.runWorkflow(WorkflowExecutionServiceThread.java:95)
+	at com.dtolabs.rundeck.core.logging.LoggingManagerImpl$MyPluginLoggingManager.runWith(LoggingManagerImpl.java:146)
+	at com.dtolabs.rundeck.core.execution.WorkflowExecutionServiceThread.run(WorkflowExecutionServiceThread.java:77)
+^
+^END^

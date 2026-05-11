@@ -1,0 +1,14 @@
+rundeck/*.war
+*.war
+__pycache__/
+*.pyc
+*.log
+*.tmp
+.idea/
+*.egg-info/
+venv/
+env/
+# Metabase JARs — não versiona binários grandes
+*.jar
+metabase/*.jar
+metabase/plugins/*.jar

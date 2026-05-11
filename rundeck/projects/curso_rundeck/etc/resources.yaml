@@ -1,0 +1,10 @@
+localhost:
+  nodename: localhost
+  hostname: localhost
+  osVersion: '10.0'
+  osFamily: windows
+  osArch: amd64
+  description: Rundeck server node
+  osName: Windows 10
+  username: '55319'
+  tags: ''

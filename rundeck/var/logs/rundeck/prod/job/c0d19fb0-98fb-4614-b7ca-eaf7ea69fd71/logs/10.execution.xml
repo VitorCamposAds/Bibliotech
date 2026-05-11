@@ -1,0 +1,43 @@
+<executions>
+  <execution id='10'>
+    <jobId>c0d19fb0-98fb-4614-b7ca-eaf7ea69fd71</jobId>
+    <dateStarted>2026-05-05T20:28:21Z</dateStarted>
+    <dateCompleted />
+    <status />
+    <outputfilepath>output-10.rdlog</outputfilepath>
+    <execIdForLogStore>10</execIdForLogStore>
+    <failedNodeList />
+    <succeededNodeList />
+    <abortedby />
+    <cancelled>false</cancelled>
+    <argString />
+    <loglevel>NORMAL</loglevel>
+    <uuid>1103414a-4187-4ba3-944a-2f344bfb886c</uuid>
+    <doNodedispatch>false</doNodedispatch>
+    <executionType>user</executionType>
+    <project>prod</project>
+    <user>vitor</user>
+    <workflow keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo 'Ola Mundo!'</exec>
+      </command>
+    </workflow>
+    <fullJob>
+      <scheduleEnabled>true</scheduleEnabled>
+      <executionEnabled>true</executionEnabled>
+      <sequence keepgoing='false' strategy='node-first'>
+        <command>
+          <exec>echo 'Ola Mundo!'</exec>
+        </command>
+      </sequence>
+      <plugins />
+      <loglevel>INFO</loglevel>
+      <defaultTab>nodes</defaultTab>
+      <name>hello_world</name>
+      <nodeFilterEditable>false</nodeFilterEditable>
+      <description></description>
+      <id>c0d19fb0-98fb-4614-b7ca-eaf7ea69fd71</id>
+      <uuid>c0d19fb0-98fb-4614-b7ca-eaf7ea69fd71</uuid>
+    </fullJob>
+  </execution>
+</executions>

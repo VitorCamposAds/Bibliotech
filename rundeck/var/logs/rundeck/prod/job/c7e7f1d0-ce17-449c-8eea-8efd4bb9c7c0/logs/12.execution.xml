@@ -1,0 +1,43 @@
+<executions>
+  <execution id='12'>
+    <jobId>c7e7f1d0-ce17-449c-8eea-8efd4bb9c7c0</jobId>
+    <dateStarted>2026-05-06T13:02:20Z</dateStarted>
+    <dateCompleted />
+    <status />
+    <outputfilepath>output-12.rdlog</outputfilepath>
+    <execIdForLogStore>12</execIdForLogStore>
+    <failedNodeList />
+    <succeededNodeList />
+    <abortedby />
+    <cancelled>false</cancelled>
+    <argString />
+    <loglevel>NORMAL</loglevel>
+    <uuid>619419ed-5672-4216-8fcb-c6d3a74b240c</uuid>
+    <doNodedispatch>false</doNodedispatch>
+    <executionType>user</executionType>
+    <project>prod</project>
+    <user>vitor</user>
+    <workflow keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>powershell -file C:\projetos\curso_rundeck\etl\main.ps1</exec>
+      </command>
+    </workflow>
+    <fullJob>
+      <scheduleEnabled>true</scheduleEnabled>
+      <executionEnabled>true</executionEnabled>
+      <sequence keepgoing='false' strategy='node-first'>
+        <command>
+          <exec>powershell -file C:\projetos\curso_rundeck\etl\main.ps1</exec>
+        </command>
+      </sequence>
+      <plugins />
+      <loglevel>INFO</loglevel>
+      <defaultTab>nodes</defaultTab>
+      <name>etl</name>
+      <nodeFilterEditable>false</nodeFilterEditable>
+      <description></description>
+      <id>c7e7f1d0-ce17-449c-8eea-8efd4bb9c7c0</id>
+      <uuid>c7e7f1d0-ce17-449c-8eea-8efd4bb9c7c0</uuid>
+    </fullJob>
+  </execution>
+</executions>

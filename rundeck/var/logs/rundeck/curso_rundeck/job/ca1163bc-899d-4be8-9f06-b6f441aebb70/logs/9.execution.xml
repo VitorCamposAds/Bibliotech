@@ -1,0 +1,75 @@
+<executions>
+  <execution id='9'>
+    <jobId>ca1163bc-899d-4be8-9f06-b6f441aebb70</jobId>
+    <dateStarted>2026-05-05T16:19:19Z</dateStarted>
+    <dateCompleted />
+    <status />
+    <outputfilepath>output-9.rdlog</outputfilepath>
+    <execIdForLogStore>9</execIdForLogStore>
+    <failedNodeList />
+    <succeededNodeList />
+    <abortedby />
+    <cancelled>false</cancelled>
+    <argString />
+    <loglevel>NORMAL</loglevel>
+    <uuid>f2bcc696-fa50-4a9a-9abd-d1a099c2baf5</uuid>
+    <doNodedispatch>true</doNodedispatch>
+    <executionType>user</executionType>
+    <nodefilters>
+      <dispatch>
+        <threadcount>1</threadcount>
+        <keepgoing>false</keepgoing>
+        <excludePrecedence>true</excludePrecedence>
+        <rankOrder>ascending</rankOrder>
+      </dispatch>
+      <filter>localhost</filter>
+    </nodefilters>
+    <project>curso_rundeck</project>
+    <user>vitor</user>
+    <workflow keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo 'Olá Mundo!'</exec>
+      </command>
+      <command>
+        <exec>echo 'Segundo Step'</exec>
+      </command>
+    </workflow>
+    <fullJob>
+      <scheduleEnabled>true</scheduleEnabled>
+      <dispatch>
+        <threadcount>1</threadcount>
+        <keepgoing>false</keepgoing>
+        <successOnEmptyNodeFilter>false</successOnEmptyNodeFilter>
+        <excludePrecedence>true</excludePrecedence>
+        <rankOrder>ascending</rankOrder>
+      </dispatch>
+      <nodefilters>
+        <filter>localhost</filter>
+      </nodefilters>
+      <plugins />
+      <defaultTab>nodes</defaultTab>
+      <description></description>
+      <uuid>ca1163bc-899d-4be8-9f06-b6f441aebb70</uuid>
+      <executionEnabled>true</executionEnabled>
+      <sequence keepgoing='false' strategy='node-first'>
+        <command>
+          <exec>echo 'Olá Mundo!'</exec>
+        </command>
+        <command>
+          <exec>echo 'Segundo Step'</exec>
+        </command>
+      </sequence>
+      <schedule>
+        <time seconds='0' minute='00' hour='10' />
+        <weekday day='*' />
+        <month month='*' />
+        <year year='*' />
+      </schedule>
+      <loglevel>INFO</loglevel>
+      <name>hello_world</name>
+      <nodesSelectedByDefault>true</nodesSelectedByDefault>
+      <nodeFilterEditable>false</nodeFilterEditable>
+      <id>ca1163bc-899d-4be8-9f06-b6f441aebb70</id>
+    </fullJob>
+  </execution>
+</executions>

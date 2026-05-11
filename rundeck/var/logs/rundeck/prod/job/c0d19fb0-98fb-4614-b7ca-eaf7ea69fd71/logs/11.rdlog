@@ -1,0 +1,7 @@
+^text/x-rundeck-log-v2.0^
+^2026-05-05T20:30:29Z|stepbegin||{node=localhost|step=1|stepctx=1|user=vitor}|^
+^2026-05-05T20:30:29Z|nodebegin||{node=localhost|step=1|stepctx=1}|^
+^2026-05-05T20:30:30Z|||{node=localhost|step=1|stepctx=1}|"Ola Mundo!"^
+^2026-05-05T20:30:30Z|nodeend||{node=localhost|step=1|stepctx=1}|^
+^2026-05-05T20:30:30Z|stepend||{node=localhost|step=1|stepctx=1|user=vitor}|^
+^END^

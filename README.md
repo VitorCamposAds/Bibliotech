@@ -15,29 +15,24 @@ A solução foi construir uma **infraestrutura/plataforma de dados dedicada**, c
 ---
 
 ## 🏗️ Arquitetura da Solução
-[FTP / GitHub (Excel/CSV)]
-│
-▼
-[Extração - Python]
-│
-▼
-[Staging - PostgreSQL (Render)]
-│
-▼
-[Transformação - SQL (DBeaver)]
-│
-▼
-[DataMart - Modelagem Dimensional (Star Schema)]
-│
-▼
-[Visualização - Metabase]
-│
-▼
-[Agendamento - Rundeck]
-│
-▼
-[Produção - AWS EC2 Windows]
 
+```text
+[FTP / GitHub (Excel/CSV)]
+    ↓
+[Extração - Python]
+    ↓
+[Staging - PostgreSQL (Render)]
+    ↓
+[Transformação - SQL (DBeaver)]
+    ↓
+[DataMart - Modelagem Dimensional (Star Schema)]
+    ↓
+[Visualização - Metabase]
+    ↓
+[Agendamento - Rundeck]
+    ↓
+[Produção - AWS EC2 Windows]
+```
 ---
 
 ## 🔄 Etapas do ETL

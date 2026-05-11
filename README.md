@@ -100,9 +100,9 @@ A aplicação foi implantada em uma instância **EC2 Windows (m5.xlarge — 4 vC
 
 <img width="885" height="452" alt="image" src="https://github.com/user-attachments/assets/d07ed28f-b2ce-46ec-8c7c-9eb295638e72" />
 
-<img width="886" height="522" alt="image" src="https://github.com/user-attachments/assets/6f8734f6-43ea-4cbd-869d-43bf25bbe853" />
+<img width="885" height="168" alt="image" src="https://github.com/user-attachments/assets/79c927b9-aa72-453f-9832-ae954bedccbe" />
 
-<img width="886" height="413" alt="image" src="https://github.com/user-attachments/assets/f38dea1a-ee61-4cb6-a7c0-583d5035f59d" />
+<img width="885" height="168" alt="image" src="https://github.com/user-attachments/assets/6ad26138-edfa-43e5-acc0-59d0580c5028" />
 
 ---
 

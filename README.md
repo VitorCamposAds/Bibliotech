@@ -5,7 +5,7 @@
 A **Bibliotech** é um marketplace que conecta empresas de e-commerce e varejo com publicadores de livros. As análises de negócio eram realizadas diretamente no banco de dados transacional, gerando dois problemas críticos:
 
 - **Lentidão** nas consultas analíticas
-- **Risco de derrubar o sistema OLTP*
+- **Risco de derrubar o sistema OLTP**
 
 A solução foi construir uma **infraestrutura/plataforma de dados dedicada**, capaz de suportar a tomada de decisão sem impactar o ambiente operacional. O principal processo de negócio acompanhado são as **vendas de livros por publicador**.
 ---

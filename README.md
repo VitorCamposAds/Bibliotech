@@ -68,7 +68,6 @@ O [Rundeck](https://docs.rundeck.com/) é utilizado para orquestrar e agendar os
 
 - **Jobs**: Definem o fluxo de execução do ETL
 - **Steps**: Comandos Python/Shell executados em cada job
-- **Nodes**: Máquina EC2 Windows como executor
 - **Monitoramento**: Logs de execução exportados para o banco de dados PostgreSQL (`rundeck_file_logs`)
 - **Backend**: PostgreSQL no Render (migrado do H2 padrão)
 
